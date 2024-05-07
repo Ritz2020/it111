@@ -42,7 +42,7 @@ public class dailySpecials {
             }else {
                 System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
                 System.out.printf("%.2f", total);
-                System.out.print(" dollars.");
+                System.out.print(" dollars. Thank you and enjoy!!");
                 System.out.println();
             }
             }
@@ -65,7 +65,7 @@ public class dailySpecials {
                 }else {
                     System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
                     System.out.printf("%.2f", total);
-                    System.out.print(" dollars.");
+                    System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
                 }
             }
@@ -87,7 +87,7 @@ public class dailySpecials {
                 }else {
                     System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
                     System.out.printf("%.2f", total);
-                    System.out.print(" dollars.");
+                    System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
                 }
             }
@@ -109,7 +109,7 @@ public class dailySpecials {
                 }else {
                     System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
                     System.out.printf("%.2f", total);
-                    System.out.print(" dollars.");
+                    System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
                 }
             }
@@ -133,7 +133,7 @@ public class dailySpecials {
                 }else {
                     System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
                     System.out.printf("%.2f", total);
-                    System.out.print(" dollars.");
+                    System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
                 }
             }
