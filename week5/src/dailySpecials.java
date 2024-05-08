@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class dailySpecials {
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         String specials;
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Please enter a day of the week excluding weekends (Monday - Friday only!)");
+        System.out.println("Please enter a day of the weekdays excluding weekends (Monday - Friday only!)");
 
         specials = input.next();
 
@@ -29,18 +29,18 @@ public class dailySpecials {
             case "Monday" -> {
                 coffee = "Latte";
                 price = 4.95;
-                System.out.println(specials + "'s coffe of the day is a " + coffee + " and the price will be $ " + price);
+                System.out.println(specials + "'s coffee of the day is a " + coffee + " and the price will be $ " + price);
 
-            System.out.println("How many " +coffee+ " would you like to order?");
+            System.out.println("How many " +coffee+ "s would you like to order?");
 
             amount = input.nextInt();
             total = amount * price;
             if(amount == 0) {
-                System.out.println("Looks like you don't like " +coffee+ "! So sad!!!");
+                System.out.println("Looks like you don't like " +coffee+ "s! So sad!!!");
             } else if (amount == 1) {
                 System.out.println("Looks like you will be ordering only one " +coffee+ " today!");
             }else {
-                System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
+                System.out.print(amount+ " " +coffee+ "s have been ordered totalling $");
                 System.out.printf("%.2f", total);
                 System.out.print(" dollars. Thank you and enjoy!!");
                 System.out.println();
@@ -54,7 +54,7 @@ public class dailySpecials {
                 price = 4.75;
                 System.out.println(specials + "'s coffe of the day is a " + coffee + " and the price will be $ " + price);
 
-                System.out.println("How many " +coffee+ " would you like to order?");
+                System.out.println("How many " +coffee+ "s would you like to order?");
 
                 amount = input.nextInt();
                 total = amount * price;
@@ -63,7 +63,7 @@ public class dailySpecials {
                 } else if (amount == 1) {
                     System.out.println("Looks like you will be ordering only one " +coffee+ " today!");
                 }else {
-                    System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
+                    System.out.print(amount+ " " +coffee+ "s have been ordered totalling $");
                     System.out.printf("%.2f", total);
                     System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
@@ -76,7 +76,7 @@ public class dailySpecials {
                 price = 4.25;
                 System.out.println(specials + "'s coffe of the day is a " + coffee + " and the price will be $ " + price);
 
-                System.out.println("How many " +coffee+ " would you like to order?");
+                System.out.println("How many " +coffee+ "s would you like to order?");
 
                 amount = input.nextInt();
                 total = amount * price;
@@ -85,7 +85,7 @@ public class dailySpecials {
                 } else if (amount == 1) {
                     System.out.println("Looks like you will be ordering only one " +coffee+ " today!");
                 }else {
-                    System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
+                    System.out.print(amount+ " " +coffee+ "s have been ordered totalling $");
                     System.out.printf("%.2f", total);
                     System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
@@ -98,7 +98,7 @@ public class dailySpecials {
                 price = 2.75;
                 System.out.println(specials + "'s coffe of the day is a " + coffee + " and the price will be $ " + price);
 
-                System.out.println("How many " +coffee+ " would you like to order?");
+                System.out.println("How many " +coffee+ "s would you like to order?");
 
                 amount = input.nextInt();
                 total = amount * price;
@@ -107,7 +107,7 @@ public class dailySpecials {
                 } else if (amount == 1) {
                     System.out.println("Looks like you will be ordering only one " +coffee+ " today!");
                 }else {
-                    System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
+                    System.out.print(amount+ " " +coffee+ "s have been ordered totalling $");
                     System.out.printf("%.2f", total);
                     System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
@@ -122,7 +122,7 @@ public class dailySpecials {
 //            default:
 //                System.out.println("problem!!!");
 
-                System.out.println("How many " +coffee+ " would you like to order?");
+                System.out.println("How many " +coffee+ "s would you like to order?");
 
                 amount = input.nextInt();
                 total = amount * price;
@@ -131,7 +131,7 @@ public class dailySpecials {
                 } else if (amount == 1) {
                     System.out.println("Looks like you will be ordering only one " +coffee+ " today!");
                 }else {
-                    System.out.print(amount+ " " +coffee+ " have been ordered totalling $");
+                    System.out.print(amount+ " " +coffee+ "s have been ordered totalling $");
                     System.out.printf("%.2f", total);
                     System.out.print(" dollars. Thank you and enjoy!!");
                     System.out.println();
