@@ -15,13 +15,13 @@ public class OpenFile {
         try {
 file = new File(fileName);
 inputFile = new Scanner(file);
-JOptionPane.showInputDialog(null,"The file was found, yippy skippy, displayed in TRY");
+JOptionPane.showMessageDialog(null,"The file was found, yippy skippy, displayed in TRY");
 
         } catch (Exception e) {
 
-            JOptionPane.showInputDialog(null,"The file was not found. This is in CATCH");
+            JOptionPane.showMessageDialog(null,"The file was not found. This is in CATCH");
         }
 
-        JOptionPane.showInputDialog(null,"Program has finishing running -done- displayed after CATCH");
+        JOptionPane.showMessageDialog(null,"Program has finishing running -done- displayed after CATCH");
     }
 }
